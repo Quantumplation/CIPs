@@ -1,18 +1,17 @@
 ---
-CIP: 2
-Title: Coin Selection Algorithms for Cardano
-Category: Wallets
+CIP: 1776
+Title: An On-Chain Decentralized Governance Mechanism for Voltaire
+Category: ??
 Authors:
-    - Jonathan Knowles <jonathan.knowles@iohk.io>
+    - Thomas Stokes <info@eutxo.pro>
 Implementors: N/A
 Discussions:
     - https://github.com/cardano-foundation/CIPs/pull/2
-    - https://github.com/cardano-foundation/CIPs/issues/232
-Status: Active
-Created: 2020-05-04
+Status: ??
+Created: 2023-01-22
 License: CC-BY-4.0
 ---
 
-# (test of formatting)
+# "It is dangerous to be right in matters on which the established authorities are wrong" - Voltaire
 
 ## Abstract
