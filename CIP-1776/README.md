@@ -2,7 +2,7 @@
 CIP: 1776
 Title: 
 Category: ??
-Authors: The Non-Tyrannical Alternative: A Refutation of IOG's Proposed Decentralized Governance Model
+Authors: The Non-Tyrannical Alternative - A Refutation of IOG's Proposed Decentralized Governance Model
     - Thomas Stokes <info@eutxo.pro>
 Implementors: N/A
 Discussions:
