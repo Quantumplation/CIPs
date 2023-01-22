@@ -18,3 +18,4 @@ License: CC-BY-4.0
 
 ## Abstract
 We refute the deeply flawed [CIP-1694](https://github.com/JaredCorduan/CIPs/edit/voltaire-v1/CIP-1694/README.md) proposed by Input Output Global for an on-chain governance system and propose an alternative, more decentralized system of governance. 
+
