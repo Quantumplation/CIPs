@@ -1,18 +1,18 @@
-"It is dangerous to be right in matters on which the established authorities are wrong" - Voltaire
-
 ---
-CIP: 1776
-Title: A Truely Decentralized Governance Mechanism for Voltaire, An Absolute Refutation Of CIP-1694
-Status: Draft
-Category: ???
+CIP: 2
+Title: Coin Selection Algorithms for Cardano
+Category: Wallets
 Authors:
-    - Thomas Stokes <info@eutxo.pro>
+    - Jonathan Knowles <jonathan.knowles@iohk.io>
+Implementors: N/A
 Discussions:
-    - https://github.com/cardano-foundation/cips/pulls/?
-Created: 2023-01-22
+    - https://github.com/cardano-foundation/CIPs/pull/2
+    - https://github.com/cardano-foundation/CIPs/issues/232
+Status: Active
+Created: 2020-05-04
 License: CC-BY-4.0
 ---
-"It is dangerous to be right in matters on which the established authorities are wrong" - Voltaire
 
+# (test of formatting)
 
-Abstract
+## Abstract
