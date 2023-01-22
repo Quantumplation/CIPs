@@ -17,3 +17,4 @@ License: CC-BY-4.0
 -Voltaire
 
 ## Abstract
+We refute the deeply flawed [CIP-1694](https://github.com/JaredCorduan/CIPs/edit/voltaire-v1/CIP-1694/README.md) proposal for an on-chain governance system
