@@ -1,6 +1,6 @@
 ---
 CIP: 1776
-Title: The Non-Tyrannical Alternative - A Refutation of IOG's Proposed Decentralized Governance Model
+Title: The Non-Tyrannical Alternative; A Refutation of IOG's Proposed Decentralized Governance Model
 Category: ??
 Authors:
     - Thomas Stokes <info@eutxo.pro>
@@ -12,7 +12,7 @@ Created: 2023-01-22
 License: CC-BY-4.0
 ---
 
-# The Non-Tyrannical Alternative: A Refutation of IOG's Proposed Decentralized Governance Model
+# The Non-Tyrannical Alternative; A Refutation of IOG's Proposed Decentralized Governance Model
 "It is dangerous to be right in matters on which the established authorities are wrong" 
 -Voltaire
 
