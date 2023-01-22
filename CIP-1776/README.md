@@ -13,6 +13,7 @@ License: CC-BY-4.0
 ---
 
 # An On-Chain Decentralized Governance Mechanism for Voltaire
-"It is dangerous to be right in matters on which the established authorities are wrong" - Voltaire
+"It is dangerous to be right in matters on which the established authorities are wrong" 
+-Voltaire
 
 ## Abstract
