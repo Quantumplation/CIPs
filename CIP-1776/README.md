@@ -46,5 +46,6 @@ The core issues summarized:
 
 4. Perverse incentives: The proposal as put forward by IOG is designed to entretch existing powers rather than truly grant control over the Cardano Blockchain to the community. 
 
+The author refutes the proposed decentralized governance model by Input Output Global (IOG) for the Cardano blockchain, stating that it is deeply flawed and leads to a slow-moving, pseudo-decentralized system with a soft-tyrannical top-down governance. The author argues that the proposed system is arbitrarily complex, has poor incentives structures, a bootstrapping problem, and perverse incentives. The author proposes a new alternative, a non-incentivized iterative block approval voting system, that would be a variant of multi-winner approval voting modified to resolve the Burr dilemma. This alternative would be more decentralized, and the ratification of governance actions would be the responsibility of stake pool operators and delegation representatives, as well as all Cardano user
 
 
