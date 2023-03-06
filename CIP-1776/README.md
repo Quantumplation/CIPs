@@ -1,6 +1,6 @@
 ---
 CIP: 1776
-Title: The Non-Tyrannical Alternative; Liberty For All
+Title: The Non-Tyrannical Alternative; A Refutation of IOG's Proposed Decentralized Governance Model
 Category: ??
 Authors:
     - Thomas Stokes <info@eutxo.pro>
@@ -51,6 +51,28 @@ The author refutes the proposed decentralized governance model by Input Output G
 
 Further, the author proposes an alternative form of Cardano governance, radically improving upon the experimental Project Catalyst which in effect resolves systematic issues uncovered during the priciple experiment while incoperating all treasury actions as a formalized governance action. 
 
+----
+##A series of bullet points and near incomprehensable notes written at 2:30 am to be developed upon later:
+
+- System can be divided simply into three houses
+    - House of Dreps 
+    - Congress of SPOs 
+    - Supreme Court
+        (for the love of god calling it the contitutional comittee is utterly foolish. Do we want the same central planning comittee of the failed communist states? Ridiculous!)
+        
+HOUSE;
+Anyone can become a drep, and therefore anyone can take part in the Governance of Cardano. The absurd suggestion of CIP 1694 that their should be a financial threshold for participation in governance ultimately disenfranchises those from those in the developing world. The ability to get support for a governance action should ABSOLUTELY NOT be exclusionary. The House of Dreps, or simply The House, is to be considered the lower chamber of governance due to the lower barrier to entry. Anyone can become a member of the house, and by default independent voters are by virtue of holding ADA (and a 1 ADA registration fee) are members of the House. The house would naturally become a chamber of many, many proposals - more proposals that can feasably be considered, thus the tripartate system requireing ratification by the congress and acent by the Supreme Court. 
+
+CONGRESS; 
+The u
+
+GREAT COMPRIMISE - The Supreme Court
+
+// Voting /
+Aparatus to be determined by outcome of vote for / against.
+
+//Mechanism /
+Leverage the same technical mechanism of CIP1694 (Same mechanism already used for stake pool delegation)
 
 
 
