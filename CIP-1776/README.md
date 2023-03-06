@@ -1,12 +1,15 @@
 ---
 CIP: 1776
-Title: The Non-Tyrannical Alternative; A Refutation of IOG's Proposed Decentralized Governance Model
+Title: The Non-Tyrannical Alternative; Liberty For All
 Category: ??
 Authors:
     - Thomas Stokes <info@eutxo.pro>
+    - Nick Gurrera <nick@nodeshark.io>
+    - Austin Hitt <hitt@nodeshark.io>
+    - Omolola Tofade <lola@nodeshark.io>
 Implementors: N/A
 Discussions:
-    - https://github.com/cardano-foundation/CIPs/pull/?
+    - https://discord.gg/nodeshark
 Status: ??
 Created: 2023-01-22
 License: CC-BY-4.0
@@ -23,11 +26,9 @@ Currently funds are dispersed from the Cardano Treasuary under an approval/disap
 
 Under our proposal **any Cardano user** will be able to submit a governance action. The release of funds from the Cardano treasuary, including funds previously dispersed by Project Catalyst, will be considered a governance action. The ratification of governance actions will be the responsibility of the following parties:
 
-1. -------redacted----------
-2. Stake pool operators & delegation representatives.
-3. All Cardano users.
-
-This CIP calls for the merger of SPO and DRep roles for reasons that will become clear later.
+1. The Supreme Court (SC)
+2. Stake Pool Operators (SPOs)
+3. Delegated Representatives (Dreps)
 
 ## Motivation
 The proposal tabled by IOG is *deeply* flawed. The proposal effectively creates a slow-moving pseudo-decentralized system of soft-tyrannical top-down governance. 
@@ -44,8 +45,12 @@ The core issues summarized:
 
 3. Bootstrapping problem: The proposal relies on the presence of sufficient DReps to transition the system from its current state to decentralized governance. It is not clear how this will be achieved in practice.
 
-4. Perverse incentives: The proposal as put forward by IOG is designed to entretch existing powers rather than truly grant control over the Cardano Blockchain to the community. 
+4. Perverse incentives: The proposal as put forward by IOG entrenches existing powers rather than truly grant control over the Cardano Blockchain to the community. 
 
-The author refutes the proposed decentralized governance model by Input Output Global (IOG) for the Cardano blockchain, stating that it is deeply flawed and leads to a slow-moving, pseudo-decentralized system with a soft-tyrannical top-down governance. The author argues that the proposed system is arbitrarily complex, has poor incentives structures, a bootstrapping problem, and perverse incentives. The author proposes a new alternative, a non-incentivized iterative block approval voting system, that would be a variant of multi-winner approval voting modified to resolve the Burr dilemma. This alternative would be more decentralized, and the ratification of governance actions would be the responsibility of stake pool operators and delegation representatives, as well as all Cardano user
+The author refutes the proposed decentralized governance model by Input Output Global (IOG) for the Cardano blockchain, stating that it is deeply flawed and leads to a slow-moving, pseudo-decentralized system with a soft-tyrannical top-down governance. The author argues that the proposed system is arbitrarily complex, has poor incentives structures, a bootstrapping problem, and perverse incentives. The author proposes a new alternative, a non-incentivized iterative block approval voting system, that would be a variant of multi-winner approval voting modified to resolve the Burr dilemma. This alternative would be more decentralized, and the ratification of governance actions would be the responsibility of stake pool operators and delegation representatives, as well as all Cardano users. 
+
+Further, the author proposes an alternative form of Cardano governance, radically improving upon the experimental Project Catalyst which in effect resolves systematic issues uncovered during the priciple experiment while incoperating all treasury actions as a formalized governance action. 
+
+
 
 
