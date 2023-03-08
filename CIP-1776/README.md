@@ -1,11 +1,9 @@
 ---
 CIP: 1776
-Title: The Non-Tyrannical Alternative; A Refutation of IOG's Proposed Decentralized Governance Model
-Category: ??
+Title: The Non-Tyrannical Alternative; An On-Chain Decentralized Governance Mechanism for Voltaire
 Authors:
     - Thomas Stokes <info@eutxo.pro>
-    - Nick Gurrera <nick@nodeshark.io>
-    - Austin Hitt <hitt@nodeshark.io>
+Contribtors:
     - Omolola Tofade <lola@nodeshark.io>
 Implementors: N/A
 Discussions:
@@ -15,7 +13,7 @@ Created: 2023-01-22
 License: CC-BY-4.0
 ---
 
-# The Non-Tyrannical Alternative: A Refutation of IOG's Proposed Decentralized Governance Model
+# The Non-Tyrannical Alternative: An On-Chain Decentralized Governance Mechanism for Voltaire
 "It is dangerous to be right in matters on which the established authorities are wrong" 
 -Voltaire
 
@@ -29,6 +27,8 @@ Under our proposal **any Cardano user** will be able to submit a governance acti
 1. The Supreme Court (SC)
 2. Stake Pool Operators (SPOs)
 3. Delegated Representatives (Dreps)
+
+**Dedications:** For my daughter, Gwendolyn, so that the beautiful things of this world do not fall to darkness. And for my son, Theodore, to prove to you there is no great evil in this world that can not be defeated with an honest heart, true intent, and the courage to stand for what is right.
 
 ## Motivation
 The proposal tabled by IOG is *deeply* flawed. The proposal effectively creates a slow-moving pseudo-decentralized system of soft-tyrannical top-down governance. 
