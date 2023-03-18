@@ -4,7 +4,11 @@ Title: The Non-Tyrannical Alternative; An On-Chain Decentralized Governance Mech
 Authors:
     - Thomas Stokes <info@eutxo.pro>
 Contribtors:
-    - Omolola Tofade <lola@nodeshark.io>
+    - LOLA
+    - AGC
+    - PSB
+    - ONE
+    - Various Parties to be credited later
 Implementors: N/A
 Discussions:
     - https://discord.gg/nodeshark
