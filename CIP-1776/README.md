@@ -74,7 +74,7 @@ This CIP does not acknowledge the jurisdiction of any nation state or legal auth
 ## The Cardano Constitution
 For the purposes of this CIP we introduce a minimum viable constitution and a mechanism by which amendments may be added:
 
-*Decentralization: may it serve as our North Star, our guiding light, and our highest virtue.
+*Decentralization: may it serve as our North Star, our guiding light, and our highest virtue.*
 
 This foundation allows us to proceed with our minimum viable governance model and sets out a framework for the first  the CIP 1776 governance model. The first amendment to this constitution shall be a substantive document of monumental significance, and it and all subsequent amendments will follow the standard model for ratification. 
 
