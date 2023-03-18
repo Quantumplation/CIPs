@@ -68,6 +68,9 @@ Lastly, while Cardano's founding entities and many community members share a som
 Legal issues
 This CIP does not acknowledge the jurisdiction of any nation state or legal authority for the enforcement of any action in relation to the Cardano blockchain due its nature as a censorship resistant distributed network.
 
+## Terminology
+This CIP introduced the concept of 'Voltaire completeness'. This expression is used to mean "Satifies all requirements for a viable governance model with no outstanding dependancies". For example, a proposal that called for a constitutional committee to oversee a constitution, but provides neither a constitution nor the ability within the proposed governance model to formally implement one, would not be considered to be 'Voltaire-complete'. This can be likened to the term 'Turing Complete' in computer science. 
+
 ## Specification 
 [Note to self, figure out how to do a contents page / list in GitHub]
 
@@ -77,6 +80,11 @@ For the purposes of this CIP we introduce a minimum viable constitution and a me
 *Decentralization: may it serve as our North Star, our guiding light, and our highest virtue.*
 
 This foundation allows us to proceed with our minimum viable governance model and sets out a framework for the first  the CIP 1776 governance model. The first amendment to this constitution shall be a substantive document of monumental significance, and it and all subsequent amendments will follow the standard model for ratification. 
+
+[This part of CIP 1776 seeks a contribution from members(s) of the Cardano technical community to propose a suitable on-chain mechanism and/or standard for the issuance of the constitution - the current 'back of the envelope' working model uses a primative non-fungible-token + smart contract solution overseen by the constitutional comittee. Failing a more sophisticated model being proffered by the Cardano community, this proposal proposes a chain of itterativly referenced tokens for voltaire completeness.]
+
+## The Constiutional Comittee
+Here we propose an **on-chain** egalitarian meritocratic solution to electing,  
 
 
 
