@@ -10,75 +10,59 @@ Discussions:
     - https://discord.gg/nodeshark
 Status: ??
 Created: 2023-01-22
-License: CC-BY-4.0
+License: All Rights Reserved
 ---
 
-# The Non-Tyrannical Alternative: An On-Chain Decentralized Governance Mechanism for Voltaire
+# CIP 1776: A Voltaire-Complete On-Chain Decentralized Governance Mechanism
 "It is dangerous to be right in matters on which the established authorities are wrong" 
 -Voltaire
 
 ## Abstract
-We refute the deeply flawed [CIP-1694](https://github.com/JaredCorduan/CIPs/edit/voltaire-v1/CIP-1694/README.md) proposed by Input Output Global for an on-chain governance system and propose an alternative, more decentralized system of governance incorperating and improving upon Project Catalyst.
+We refute alternative proposals for Cardano governance and propose a revision of Cardano's on-chain governance system to support the new requirements for Voltaire. Under our proposal any Cardano user will be able to submit a governance action. The ratification of governance actions will be the responsibility of the following parties:
 
-Currently funds are dispersed from the Cardano Treasuary under an approval/disapproval voting system that exposes our system of governance to a number of critical vulnerabilities and perversely incentivized attack vectors that are routinely exploited by hostile actors. Here we propose a new method, **non-incentivized iterative block approval voting**, which is a variant of multiwinner approval voting modified to resolve the Burr dilemma.
+1.	The Septet
+2.	Stake Pool Operators (Herein Operators)
+3.	Delegated Representatives (Herein Representatives) 
 
-Under our proposal **any Cardano user** will be able to submit a governance action. The release of funds from the Cardano treasuary, including funds previously dispersed by Project Catalyst, will be considered a governance action. The ratification of governance actions will be the responsibility of the following parties:
+Every governance action (excluding Septet elections) must be ratified by all three of these governance bodies using their votes. Ratified actions may then be enacted on-chain, following a set of well-defined rules.
+The Septet shall be composed of seven independently elected representatives responsible for adjudicating the constitutionality of all motions approved by Stake Pool Operators and Delegated Representatives and ratified or overridden accordingly. 
+The Stake Pool operators shall act as the upper chamber of governance each casting a single vote while satisfying the eligibility requirements for participation. 
 
-1. The Supreme Court (SC)
-2. Stake Pool Operators (SPOs)
-3. Delegated Representatives (Dreps)
+Any Cardano user may register as a Representative and so choose to represent themselves and/or others. They may delegate their voting rights to any other registered Representative. These voting rights will be based on their total ADA holdings, as a whole number of Lovelace. Additionally, Representatives may delegate their collective voting power to other Representatives under an amorphous hierarchical liquid governance model.
 
-**Dedications:** For my daughter, Gwendolyn, so that the beautiful things of this world do not fall to darkness. And for my son, Theodore, to prove to you there is no great evil in this world that can not be defeated with an honest heart, true intent, and the courage to stand for what is right.
+Dedications: For my daughter, Gwendolyn, so that the beautiful things of this world do not fall to darkness. And for my son, Theodore, to prove to you there is no great evil in this world that can not be defeated with determination, a true heart, and the courage to stand for what is right.
 
 ## Motivation
-The proposal tabled by IOG is *deeply* flawed. The proposal effectively creates a slow-moving pseudo-decentralized system of soft-tyrannical top-down governance. 
+Growing dissatisfaction with the governance model proposed in CIP1694 has splintered the Cardano community with divisive argumentation and rampant proliferation of misinformation on both sides of the debate. The model proposed by IO, while a commendable attempt to provide a first step to create a technically functional model of governance, fails to bring within its scope a mechanism for the drafting of the Cardano constitution despite its reliance on a constitutional committee. Further, while calling for the Cardano community to “think deeply about the processes for handling the creation of governance actions that are specified in (CIP 1694). In particular, the role of Project Catalyst in creating treasury withdrawal actions” it fails to bring the observed outcome resulting from four years of treasury experimentation into the scope of foundational governance. Finally, the membership of the constitutional committee is somewhat flippantly dismissed as “an off-chain issue”, despite such a committee being (under the CIP1694 model) pivotal to the proper functioning of the governance model, with the risk of a perpetual dissatisfaction in said appointed committee(s) grinding on chain governance to a halt. 
 
-Their proposed system of governance makes it incredibly difficult for the community to replace the Constitutional Committee if it is not performing well or is not acting in the best interest of the network. This is because the process for replacing the committee is arbritrarily complex. Additionally, the size and quorum requirements of the committee can change each time it is replaced, which makes it difficult for the community to predict or understand how the committee operates. It also can be difficult to understand how the action will be ratified, and which actions will be enacted or dropped.
+## Goal
+The goal of this CIP is to lay down a functional foundation for decentralized decision-making. This CIP describes a model for on-chain governance that is both technically and legislatively complete and (unlike other proposed models of governance) without any missing dependencies for a functional mechanism of minimum viable governance. This model leverages the existing Cardano governance mechanism scheme, correctly utilizing the seven existing governance keys. It aims to provide a tangible, scalable foundation that is technically achievable within a reasonable timeframe for any competent world leading blockchain development organization.
 
-Let us apply Occam's Razor, put simply “the simplest solution is almost always the best". A system of arbitrary complexity is often developed those of great intelligence - this issue plagues particle physics where increasingly complex models are proposed as a refutation to the standard model, requiring increasingly complex experimentation which ultimately results in increasingly expensive refutation of the underlying theory. This problem manifests in almost all fields of academia. 
+## Current Governance Mechanism Design
 
-Another systemic flaw is that the ratification requirements for different governance actions are arbritrarily complex. Different actions require different combinations of approval from the Constitutional Committee, DReps, and SPOs, and have different thresholds for the percentage of active voting stake and stake held by stake pools that must be met in order for the action to be ratified. Additionally, the fallback conditions are not clear. It could be challenging for community members to keep track of these requirements and understand how to participate in the governance process effectively - dramatically reducing governance participation. 
+The seven-key on-chain Cardano governance system, established during the Shelley ledger phase, possesses the ability to:
 
-This proposal proceeds on the axiom that the flaws in CIP 1694 are self-evident (which indeed they are) and proposes a substantially more viable alternative.
+1.	Alter protocol parameter values, including the initiation of "hard forks."
+2.	Move ADA between reserves and the treasury, as well as the withdrawal of ADA from these sources.
 
-The core issues summarized:
+Under the existing framework, initiating governance actions necessitates special transactions with Quorum-Many authorizations from the governance keys (5 of the 7 on the Cardano mainnet). The transaction body contains fields detailing the proposed governance action, such as amending protocol parameters or initiating fund transfers. Each transaction can prompt only one type of governance action, but an individual action can produce multiple effects (e.g., modifying two or more protocol parameters).
 
-1. Arbritrary complexity: The proposal introduces several new concepts and mechanisms, such as the Constitutional Committee, DReps, and new types of voting certificates, which makes the system unneccisarily complex for stakeholders - this will reduce overall participation in governance.
+Transaction body field no. 6 is utilized for protocol parameter updates. Meanwhile, Move Instantaneous Rewards (MIR) certificates are employed for handling treasury and reserve movements. Authorized governance actions are executed at epoch boundaries (when they are enacted).
 
-2. Poor intentive structure: The proposal mentions that DReps need to be compensated for their work, but it is not clear how this will be done or what the exact mechanisms will be. It fails to leverage the existing incentive structures of the Cardano blockchain. 
+Changing the major protocol version enables Cardano to enact controlled hard forks. This type of protocol parameter update therefore has a special status, since stake pools must upgrade their node versions to support the new protocol version once the hard fork is enacted.
 
-3. Bootstrapping problem: The proposal relies on the presence of sufficient DReps to transition the system from its current state to decentralized governance. It is not clear how this will be achieved in practice.
+## Limitations of the Shelley Governance Model
 
-4. Perverse incentives: The proposal as put forward by IOG entrenches existing powers rather than truly grant control over the Cardano Blockchain to the community. 
+As we progress towards the Voltaire era, this proposal aims to remedy several limitations of the current design through the application of a minimum viable governance approach. Offering a simple, scalable, mutable model for governance is impossible under the Shelly model and thus an alternative is required.  
+The Shelley governance model does not provide an avenue for active on-chain engagement from Ada holders. Although protocol changes often result from discussions with selected community members, the process is primarily driven by the founding entities as IOG, the Cardano Foundation, and Emergo hold between them all seven governance keys. 
+Treasury movements are a crucial and delicate matter, but they can be difficult to monitor. It is essential to establish greater transparency and additional layers of control over these transactions.
+Hard forks, which require special handling by SPOs, are not distinguished from other protocol parameter alterations.
+Lastly, while Cardano's founding entities and many community members share a somewhat unified vision for the project, there is no explicit document outlining these guiding principles. Utilizing the Cardano blockchain to permanently record the shared Cardano ethos as a formal Cardano Constitution makes sense.
 
-5. Exclusionary Representation: Current discussions fo CIP 1694 effectively exclude members of the developing word from access by introducing a threshold to become a DRep. 
+## Out of scope
 
-The author proposes a new alternative, a non-incentivized iterative block approval voting system to manage treasury disbursement (that would be a variant of multi-winner approval voting modified to resolve the Burr dilemma) and a three-house structure for overarching governance actions. This alternative would be more decentralized, and the ratification of governance actions would be the responsibility of SPOs, Dreps, and a highly modified constitutional committee herein the ‘SC’ or Supreme Court. Let us apply Occam's Razor, put simply “the simplest solution is almost always the best". A system of arbitrary complexity is often developed those of great intelligence - this issue plagues particle physics where increasingly complex models are proposed as a refutation to the standard model, requiring increasingly complex experimentation which ultimately results in increasingly expensive refutation of the underlying theory. This problem manifests in almost all fields of academia. 
-
-Further, the author proposes an alternative form of Cardano governance, radically improving upon the experimental Project Catalyst which in effect resolves systematic issues uncovered during the priciple experiment while incoperating all treasury actions as a formalized governance action. 
-
-----
-##A series of bullet points / template
-
-- System can be divided simply into three houses
-    - House of Dreps 
-    - Congress of SPOs 
-    - Supreme Court
-        (for the love of god calling it the contitutional comittee is utterly foolish. Do we want the same central planning comittee of the failed communist states? Ridiculous!)
-        
-HOUSE;
-Anyone can become a drep, and therefore anyone can take part in the Governance of Cardano. The absurd suggestion of CIP 1694 that their should be a financial threshold for participation in governance ultimately disenfranchises those from those in the developing world. The ability to get support for a governance action should ABSOLUTELY NOT be exclusionary. The House of Dreps, or simply The House, is to be considered the lower chamber of governance due to the lower barrier to entry. Anyone can become a member of the house, and by default independent voters are by virtue of holding ADA (and a 1 ADA registration fee) are members of the House. The house would naturally become a chamber of many, many proposals - more proposals that can feasably be considered, thus the tripartate system requireing ratification by the congress and acent by the Supreme Court. 
-
-CONGRESS; 
-The u
-
-GREAT COMPRIMISE - The Supreme Court
-
-// Voting /
-Aparatus to be determined by outcome of vote for / against.
-
-//Mechanism /
-Leverage the same technical mechanism of CIP1694 (Same mechanism already used for stake pool delegation)
+Legal issues
+This CIP does not acknowledge the jurisdiction of any nation state or legal authority for the enforcement of any action in relation to the Cardano blockchain due its nature as a censorship resistant distributed network.
 
 
 
