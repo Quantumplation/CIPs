@@ -24,11 +24,11 @@ License: All Rights Reserved
 ## Abstract
 We refute alternative proposals for Cardano governance and propose a revision of Cardano's on-chain governance system to support the new requirements for Voltaire. Under our proposal any Cardano user will be able to submit a governance action. The ratification of governance actions will be the responsibility of the following parties:
 
-1.	The Septet
+1.	The Constitutional Septet
 2.	Stake Pool Operators (Herein Operators)
 3.	Delegated Representatives (Herein Representatives) 
 
-Every governance action (excluding Septet elections) must be ratified by all three of these governance bodies using their votes. Ratified actions may then be enacted on-chain, following a set of well-defined rules.
+Every governance action (excluding Septet elections, which in this proposal are an emergent property of the overall structure of governance) must be ratified by all three of these governance bodies using their votes. Ratified actions may then be enacted on-chain, following a set of well-defined rules.
 The Septet shall be composed of seven independently elected representatives responsible for adjudicating the constitutionality of all motions approved by Stake Pool Operators and Delegated Representatives and ratified or overridden accordingly. 
 The Stake Pool operators shall act as the upper chamber of governance each casting a single vote while satisfying the eligibility requirements for participation. 
 
