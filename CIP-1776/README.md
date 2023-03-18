@@ -68,5 +68,6 @@ Lastly, while Cardano's founding entities and many community members share a som
 Legal issues
 This CIP does not acknowledge the jurisdiction of any nation state or legal authority for the enforcement of any action in relation to the Cardano blockchain due its nature as a censorship resistant distributed network.
 
-
+## Copyright
+© EveryEpoch Limited - All Rights Reserved
 
