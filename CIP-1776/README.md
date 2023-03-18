@@ -68,6 +68,18 @@ Lastly, while Cardano's founding entities and many community members share a som
 Legal issues
 This CIP does not acknowledge the jurisdiction of any nation state or legal authority for the enforcement of any action in relation to the Cardano blockchain due its nature as a censorship resistant distributed network.
 
+## Specification 
+[Note to self, figure out how to do a contents page / list in GitHub]
+
+## The Cardano Constitution
+For the purposes of this CIP we introduce a minimum viable constitution and a mechanism by which amendments may be added:
+
+*Decentralization: may it serve as our North Star, our guiding light, and our highest virtue.
+
+This foundation allows us to proceed with our minimum viable governance model and sets out a framework for the first  the CIP 1776 governance model. The first amendment to this constitution shall be a substantive document of monumental significance, and it and all subsequent amendments will follow the standard model for ratification. 
+
+
+
 ## Copyright
 © EveryEpoch Limited (Company Number 14324429) - All Rights Reserved
 
